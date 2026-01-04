@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ui {
+  width: 800px;
+  padding: 10px;
+  background: #222;
+  box-sizing: border-box;
+}
+
+#class-selection {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.class-card {
+  background: #333;
+  border: 1px solid #444;
+  padding: 8px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.class-card.selected {
+  border: 2px solid #76ff03;
+}
+
+button {
+  padding: 6px 12px;
+  margin-bottom: 8px;
+}
+
+#stats {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+#log {
+  margin-top: 8px;
+  height: 80px;
+  overflow-y: auto;
+  background: #181818;
+  padding: 6px;
+  border: 1px solid #333;
+  font-size: 12px;
+}
+
+canvas {
+  border: 1px solid #333;
+  background: #0b0b0b;
+}
